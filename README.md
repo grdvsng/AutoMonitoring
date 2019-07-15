@@ -1,6 +1,6 @@
 # ps1-auto-monitoring
  Add a site, a table for which you want to monitor, as well as conditions. And add an action under the conditions (the default is sending a letter).
-[img]()
+[img](https://photos.google.com/search/_tra_/photo/AF1QipPgZgcTWL-9KZ2oCIT1AGVBk13M8Xjz63oFbCE)
 ```powershell
 . .\autoMonitoring.ps1
 
