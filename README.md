@@ -52,7 +52,7 @@ function condition1($val1, $val2) {
 [string]$cUrl              = "https://weather.com/weather/tenday/l/USNY0996:1:US";                                                                                                                                                                                     
 [string]$mailTo            = 'my@gmail.com';                                                           
 [string]$subject           = 'Weather is Bad!';                                                               
-[object]$onError          = [EmailSender]::new($mailTo, $subject);                                                
+[object]$onError           = [EmailSender]::new($mailTo, $subject);                                                
 [int]$onErrorTimeout       = 60;
 [Validator]$validator      = [Validator]::new($validParams); 
 [MyApplication]$app        = [MyApplication]::new($aUrl, $cUrl, $authForm, $HTMLTableParams, $validator, $onError, $mainTimeout);
